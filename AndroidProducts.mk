@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_OP46F1.mk
+    $(LOCAL_DIR)/twrp_OP46F1.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_OP46F1-user \
