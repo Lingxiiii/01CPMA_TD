@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from OP46F1 device
-$(call inherit-product, device/oppo/OP46F1/device.mk)
+#$(call inherit-product, device/oppo/OP46F1/device.mk)
 
 PRODUCT_DEVICE := OP46F1
 PRODUCT_NAME := twrp_OP46F1
